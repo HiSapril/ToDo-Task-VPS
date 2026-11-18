@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django framework
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Database dumps / temp files
+*.sql
+mysql.sql
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
